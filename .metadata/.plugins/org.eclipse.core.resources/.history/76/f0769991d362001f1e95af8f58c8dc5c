@@ -1,0 +1,25 @@
+package day1;
+
+public class Fibonacci {
+
+	public void fibonacci(int n) {
+		int n1=0,n2=1;
+		int count=0;
+		System.out.println(n1+"\n"+n2);
+		int nextterm;
+		while(count<=n) {
+			nextterm=n1+n2;
+			System.out.println(nextterm);
+			n1=n2;
+			n2=nextterm;
+			count++;
+			
+		}
+	}
+		public static void main(String args[]) {
+			Fibonacci fb=new Fibonacci();
+			fb.fibonacci(10);
+		}
+			
+	}
+}
