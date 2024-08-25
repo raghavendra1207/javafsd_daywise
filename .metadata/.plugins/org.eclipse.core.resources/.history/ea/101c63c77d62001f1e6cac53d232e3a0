@@ -1,0 +1,30 @@
+package day1;
+import day1.Vehicle;
+public class Car extends Vehicle{
+	
+		private String make;
+		private String model;
+		public Car(String make,String model) {
+			super(make,model);
+			this.make=make;
+			this.model=model;
+		}
+		public void setMake(String make) {
+			this.make=make;
+		}
+		public void setModel(String model) {
+			this.model=model;
+		}
+		public String getModel() {
+			return this.model;
+		}
+		public String getMake() {
+			return this.make;
+		}
+	
+		public static void main(String args[]) {
+			Car honda=new Car("honda","civic");
+			honda.getMake();
+			honda.getModel();
+		}
+}
