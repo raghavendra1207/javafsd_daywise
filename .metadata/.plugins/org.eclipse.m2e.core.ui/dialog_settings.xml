@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\javafsd_daywise\day1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,11 +44,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="week2"/>
 			<item value="day1"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="week2"/>
 			<item value="day1"/>
 		</list>
 		<list key="projectNameTemplate">
